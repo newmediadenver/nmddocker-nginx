@@ -1,4 +1,4 @@
-FROM nginx:1.7.9
+FROM nginx:latest
 VOLUME ["/etc/nginx/sites-enabled", "/etc/nginx/certs", "/etc/nginx/conf.d", "/var/log/nginx", "/var/www/html"]
 WORKDIR /etc/nginx
 CMD ["nginx"]
